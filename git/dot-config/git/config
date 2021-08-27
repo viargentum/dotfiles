@@ -1,0 +1,29 @@
+[alias]
+	a = "add -A"
+	ac = "!git add -A && git commit"
+	acommend = "!git add -A && git commend"
+	c = "commit"
+	commend = "commit --amend --no-edit"
+	d = "diff"
+	f = "pull"
+	l = "log"
+	ld = "log -p"
+	o = "checkout"
+	p = "push"
+	pf = "push --force-with-lease"
+	s = "status"
+
+[commit]
+	gpgSign = true
+
+[gpg]
+	program = "/nix/store/ck2b73k3af1pcjm2dfsy5myg2cl5k13j-gnupg-2.2.27/bin/gpg2"
+
+[init]
+	defaultBranch = "main"
+
+[user]
+	email = "viargentum@riseup.net"
+	name = "viargentum"
+	signingKey = "6F79A6532E78067A"
+
