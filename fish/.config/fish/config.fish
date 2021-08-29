@@ -25,6 +25,7 @@ abbr -a vsc 'code .'
 abbr -a weather 'curl wttr.in'
 abbr -a ctn 'cargo test -- --nocapture'
 abbr -a ta 'tmux -u a'
+abbr -a sp 'spotify'
 
 complete --command paru --wraps pacman
 
