@@ -35,6 +35,7 @@ abbr -a p 'paru'
 abbr -a pi 'paru -S'
 abbr -a l 'exa -l --icons'
 abbr -a ll 'exa -la --icons'
+abbr -a la 'exa -la --icons'
 
 # Type - to move up to top parent dir which is a repository
 function d
