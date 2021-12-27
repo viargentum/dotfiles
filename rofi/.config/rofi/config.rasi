@@ -1,5 +1,5 @@
 configuration {
-	theme: "/usr/share/rofi/themes/arthur.rasi";
 	modi: "window,run,ssh,filebrowser,file-browser-extended,calc";
 }
 
+@theme "/usr/share/rofi/themes/arthur.rasi"
